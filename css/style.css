@@ -1,0 +1,109 @@
+.nav-item {
+  list-style-type: none;
+  margin: 0;
+}
+
+.navbar {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  color: white;
+  border: 5px solid red;
+}
+.logo span {
+  border: 4px solid green;
+  display: block;
+}
+.nav-list {
+  display: flex;
+  padding: 0;
+}
+
+.nav-item {
+  border: 5px solid red;
+  margin: 0px 20px;
+}
+.nav-link a {
+  color: white;
+  text-decoration: none;
+}
+.nav-link a:hover {
+  color: yellow;
+  text-decoration: underline;
+}
+
+body {
+  font-family: Inter, sans-serif;
+  background-color: bisque;
+}
+.book-btn {
+  background-color: blueviolet;
+  padding: 8px 16px;
+  border-radius: 2px;
+  color: white;
+  text-decoration: none;
+}
+.book-btn:hover {
+  background-color: coral;
+  color: black;
+}
+.hero {
+  display: flex;
+}
+.image-box {
+  width: 50%;
+}
+.image-box img {
+  height: 500px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.video-box {
+  width: 50%;
+  height: 500px;
+  background-color: coral;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h2 {
+  margin-left: 20px;
+}
+/* cards style section */
+.song-card {
+  margin: 20px;
+  border: 20px;
+  width: fit-content;
+  padding: 16px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.song-card:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.song-list-item {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border: ;
+}
+
+.artist {
+  display: block;
+  font-size: 14px;
+  color: #444444;
+}
+.song-name {
+  display: block;
+  font-size: 20;
+  color: black;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+}
